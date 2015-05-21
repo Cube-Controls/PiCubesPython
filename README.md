@@ -2,7 +2,7 @@
 
 These are Python examples how to access PiCubes I/O Modules from Raspberry Pi using Python.
 
-There are next functions in picubes class that are used to communicate :
+These are next the functions in picubes class that are used to communicate with I/O modules:
 
 	# ===========================================================================
 	# writeDO(module,output,value) - Control Pi-Cube DO Board
