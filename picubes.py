@@ -68,7 +68,7 @@ class picubes(object):
 	# ===========================================================================
 	# readUI(module,input,type) - Control and Read Pi-Cube UI Board
 	# module - Module address (1-6)
-	# output - Output number (1-4)
+	# input  - Input number (1-4)
 	# type   - 0 = Resistance , 1 = Digital, 2 = Voltage/Current , 
 	#          3 = 10K Type II Thermistor, 4 - Pulse Input
 	# ===========================================================================				
