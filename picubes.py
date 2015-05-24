@@ -88,9 +88,9 @@ class picubes(object):
 			reg = 48 + (module-1)*16 + (inputn-1)*4
 			result = self.bus.read_i2c_block_data(0x1C, reg, 4)
 			if type == 4:
-				calc = result[0] + result[1]*pow(2,8) + result[2]*pow(2,16) + result[3]*pow(2,24)
+				calc = result[0] | result[1]<<8 | result[2]<<16 | result[3]<<24
 			else:
-				calc = self.getSignedNumber(result[0] + result[1]*pow(2,8) + result[2]*pow(2,16) + result[3]*pow(2,24),32)
+				calc = self.getSignedNumber(result[0] | result[1]<<8 | result[2]<<16 | result[3]<<24,32)
 			return calc
 		except IOError, err:
 			return self.errMsg()
