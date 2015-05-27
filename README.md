@@ -22,7 +22,7 @@ These are next the functions in picubes class that are used to communicate with 
 	#            1 = Modulation (0-10VDC)
 	#            2-255 = Digital otput PWM with this period in sec.
  	# value  - Universal output value:
- 	#	     0/1 = For digital type 
+ 	#            0/1 = For digital type 
  	#            0-100% = for Modulation/PWM
 	# ===========================================================================
 	
