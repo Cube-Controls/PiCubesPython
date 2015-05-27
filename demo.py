@@ -24,7 +24,7 @@ while True:
 	picubes.writeDO(5,1,0) # Output 1 on Module 5 Off
 
 
-    # Test picubes.readUO Function
+    `   # Test picubes.readUO Function
 	print 'Output 1, Module 3 Off '
 	picubes.writeUO(3,1,0,0) # Universal Output 1 on Module 3 is Digital Off
 	time.sleep(2)            # wait two seconds	
