@@ -35,7 +35,7 @@ These are next the functions in picubes class that are used to communicate with 
 	#            1 = Digital (Return value 0-1)
 	#            2 = Voltage/Current (Return value 0-100%,represent 0-10V/0-20mA) 
 	#            3 = 10K Type II Thermistor (Return value -4000 to 14000, scale 0.01)
-	#	     4 = Pulse Input (Return value is counter value)  
+	#            4 = Pulse Input (Return value is counter value)  
 	# ===========================================================================	
 	
 
