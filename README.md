@@ -38,4 +38,7 @@ These are next the functions in picubes class that are used to communicate with 
 	#            4 = Pulse Input (Return value is counter value)  
 	# ===========================================================================	
 	
+License
+----
 
+MIT
